@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>dartsasshost_compiler</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dartsasshost-compiler</ToolCommandName>
+    <AssemblyName>dartsasshost-compiler</AssemblyName>
+
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="DartSassHost" Version="1.0.0-preview7" />
+    <PackageReference Include="JavaScriptEngineSwitcher.V8" Version="3.14.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.win-x86" Version="7.2.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.win-x64" Version="7.2.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.win-arm64" Version="7.2.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.linux-x64" Version="7.2.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.linux-arm" Version="7.2.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.linux-arm64" Version="7.2.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.osx-x64" Version="7.2.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.osx-arm64" Version="7.2.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="package.csproj" />
+  </ItemGroup>
+
+</Project>

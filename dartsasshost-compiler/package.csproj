@@ -1,0 +1,27 @@
+<Project>
+  <PropertyGroup>
+    <Title>DartSassHost Web Compiler</Title>
+    <Description>Debug Only package</Description>
+    <PackageTags>debug-only</PackageTags>
+    <Product>dartsasshost-compiler</Product>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Test</Authors>
+    <Company>Test</Company>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageProjectUrl>https://github.com/sergeyzwezdin/dotnet-tool-DartSassHost</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sergeyzwezdin/dotnet-tool-DartSassHost</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>dartsasshost-compiler</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="package.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+</Project>
